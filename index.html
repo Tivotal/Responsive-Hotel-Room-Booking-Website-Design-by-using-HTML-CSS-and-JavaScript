@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--Created by Tivotal-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Hotel Booking Website</title>
+
+    <!--font awesome(for icons)-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!--css file-->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header" id="home">
+      <nav>
+        <div class="navbar">
+          <div class="logo">
+            <a href="#">
+              <img src="images/logo.jpg" alt="" />
+            </a>
+          </div>
+
+          <div class="menu_btn">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+
+        <ul class="links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#popular">Popular</a></li>
+          <li><a href="#explore">Explore</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button class="btn nav_btn">Book Now</button>
+      </nav>
+
+      <section class="section header_section">
+        <p>Stay - Relax - Repeat</p>
+        <h1>
+          Step Into Serenity <br />
+          Where <span>Luxury</span> Feels Like <span>Home</span>.
+        </h1>
+      </section>
+    </header>
+
+    <section class="section booking_section">
+      <form action="#" class="booking_form">
+        <div class="input_box">
+          <span><i class="fas fa-calendar"></i></span>
+          <div>
+            <label>CHECK-IN</label>
+            <input type="date" />
+          </div>
+        </div>
+        <div class="input_box">
+          <span><i class="fas fa-calendar"></i></span>
+          <div>
+            <label>CHECK-OUT</label>
+            <input type="date" />
+          </div>
+        </div>
+        <div class="input_box">
+          <span><i class="fas fa-user"></i></span>
+          <div>
+            <label>GUESTS</label>
+            <input type="number" value="2" />
+          </div>
+        </div>
+        <div class="input_box">
+          <button class="btn">Book now</button>
+        </div>
+      </form>
+    </section>
+
+    <section class="section about_section" id="about">
+      <div class="about_img">
+        <img src="images/about-img.jpg" alt="" />
+      </div>
+
+      <div class="about_content">
+        <p class="title">ABOUT US</p>
+        <h2 class="tagline">A Whole New Level of Hospitality</h2>
+        <p class="desc">
+          With a focus on quality accommodations, personalized experiance, and
+          seamless booking, our platform is dedicated to ensuring that every
+          traveller embarks on their dream holiday with confidance and
+          excitement.
+        </p>
+        <div class="about_btn">
+          <button class="btn">Read More</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section deal_section">
+      <p class="title">DEAL OF THE DAY</p>
+      <h2 class="tagline">Where Relaxation Meets Luxury.</h2>
+
+      <div class="deal_wrapper">
+        <div class="deal_card">
+          <div class="card_img">
+            <img src="images/deal-1.jpg" alt="" />
+            <div class="card_icons">
+              <span><i class="fas fa-heart"></i></span>
+              <span><i class="fas fa-bookmark"></i></span>
+              <span><i class="fas fa-share-nodes"></i></span>
+            </div>
+          </div>
+
+          <div class="card_details">
+            <h4>Sahara Star Hotel</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In, ea.
+            </p>
+            <h5>Starting from <span>$199/night</span></h5>
+            <button class="btn">Book Now</button>
+          </div>
+        </div>
+        <div class="deal_card">
+          <div class="card_img">
+            <img src="images/deal-2.jpg" alt="" />
+            <div class="card_icons">
+              <span><i class="fas fa-heart"></i></span>
+              <span><i class="fas fa-bookmark"></i></span>
+              <span><i class="fas fa-share-nodes"></i></span>
+            </div>
+          </div>
+
+          <div class="card_details">
+            <h4>Hotel Kurla Residency</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In, ea.
+            </p>
+            <h5>Starting from <span>$299/night</span></h5>
+            <button class="btn">Book Now</button>
+          </div>
+        </div>
+        <div class="deal_card">
+          <div class="card_img">
+            <img src="images/deal-3.jpg" alt="" />
+            <div class="card_icons">
+              <span><i class="fas fa-heart"></i></span>
+              <span><i class="fas fa-bookmark"></i></span>
+              <span><i class="fas fa-share-nodes"></i></span>
+            </div>
+          </div>
+
+          <div class="card_details">
+            <h4>Sea Princes Hotel</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. In, ea.
+            </p>
+            <h5>Starting from <span>$399/night</span></h5>
+            <button class="btn">Book Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="popular" id="popular">
+      <div class="section popular_section">
+        <div class="popular_content">
+          <p class="title">POPULAR DESTINATIONS</p>
+          <h2 class="tagline">The best locations around the world for you.</h2>
+
+          <ul class="popular_list">
+            <li>
+              <span><i class="fas fa-location"></i></span>
+              Astria(Europe)
+            </li>
+            <li>
+              <span><i class="fas fa-location"></i></span>
+              Bangkok(Asia)
+            </li>
+            <li>
+              <span><i class="fas fa-location"></i></span>
+              Canada(America)
+            </li>
+            <li>
+              <span><i class="fas fa-location"></i></span>
+              Dubai(Middle East)
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section banner_section">
+      <div class="banner_content">
+        <div class="banner_card">
+          <h4>20M+</h4>
+          <p>Hotels Available</p>
+        </div>
+        <div class="banner_card">
+          <h4>30M+</h4>
+          <p>Bookings Completed</p>
+        </div>
+        <div class="banner_card">
+          <h4>40M+</h4>
+          <p>Happy Customers</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section explore_section" id="explore">
+      <p class="title">EXPLORE</p>
+      <h2 class="tagline">Best places to stay for your next trip!</h2>
+
+      <div class="explore_wrapper">
+        <div class="explore_card">
+          <div class="card_img">
+            <img src="images/explore-1.jpg" alt="" />
+            <div class="card_title">Maldives</div>
+          </div>
+        </div>
+        <div class="explore_card">
+          <div class="card_img">
+            <img src="images/explore-2.jpg" alt="" />
+            <div class="card_title">Krabi</div>
+          </div>
+        </div>
+        <div class="explore_card">
+          <div class="card_img">
+            <img src="images/explore-3.jpg" alt="" />
+            <div class="card_title">Phuket</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer" id="contact">
+      <div class="section footer_section">
+        <div class="footer_col">
+          <div class="logo">
+            <a href="#home">
+              <img src="images/logo.jpg" alt="" />
+            </a>
+          </div>
+          <p class="desc">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto
+            nam dolore, alias quia atque nostrum!
+          </p>
+          <button class="btn">Read more</button>
+        </div>
+
+        <div class="footer_col">
+          <h4>COMPANY</h4>
+          <ul class="footer_links">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_col">
+          <h4>PARTNER WITH US</h4>
+          <ul class="footer_links">
+            <li><a href="#">Partner Portal</a></li>
+            <li><a href="#">Partner Hub</a></li>
+            <li><a href="#">Affiliate</a></li>
+            <li><a href="#">Advertise on Royal Corp</a></li>
+            <li><a href="#">Connectivity Partner</a></li>
+          </ul>
+        </div>
+
+        <div class="footer_col">
+          <h4>CONTACT US</h4>
+          <ul class="footer_links">
+            <li><a href="#">royalcorp@info.com</a></li>
+          </ul>
+          <div class="socials">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        Copyright &#169; 2024 Royal Corp. All rights reserved
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
